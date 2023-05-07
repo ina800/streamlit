@@ -15,8 +15,6 @@ st.title('Streamlitの練習')
 st.write('まずはすでにアップロードしておいたCSVファイルをTableとして表示する。'
 df = pd.read_csv('newly_confirmed_cases_daily.csv')
 st.dataframe(df)
-         
-chart_data = df[]
-st.line_chart(chart_data)
+
          
         
