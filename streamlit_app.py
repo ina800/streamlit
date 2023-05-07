@@ -13,4 +13,4 @@ st.title('Streamlitの練習')
 #　まずは基本から
 # csvファイルをアップロードしグラフ化するだけのプログラム
 df = pd.read_csv('newly_confirmed_cases_daily.csv')
-st.df
+st.dataframe(df)
